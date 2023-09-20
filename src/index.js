@@ -56,11 +56,11 @@ function createCatInfoMarkup(data) {
       url,
     },
   ] = data;
-  return (markup = `<img src="${url}" alt="${name}" class="cat-image">
+  return  `<img src="${url}" alt="${name}" class="cat-image">
       <div class="cat-dsc">
         <h1 class="cat-name">${name}</h1>
         <p class="cat-description">${description}</p>
         <p class="cat-temperament"><span class="temperament-title">Temperament: </span>${temperament}</p>
-      </div>`);
+      </div>`;
 }
 
