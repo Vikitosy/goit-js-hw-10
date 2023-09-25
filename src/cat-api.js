@@ -28,10 +28,10 @@ export function fetchCatByBreed(breedId) {
     .then(response => {
       return response.data;
     })
-    .catch(error => {
+    .catch(
       console.log(
         Notify.failure(`Oops! Something went wrong! Try reloading the page!`)
       );
-    });
+    );
 }
 
